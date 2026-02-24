@@ -6,6 +6,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         GradeManager manager = new GradeManager();
+        manager.loadData();
         int choice;
 
         do {
